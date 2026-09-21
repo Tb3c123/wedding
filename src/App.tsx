@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 // ║  ĐỂ MỞ LẠI THIỆP CƯỚI: Đổi COMING_SOON = false         ║
 // ║  TO RESTORE WEDDING SITE: Set COMING_SOON = false       ║
 // ╚══════════════════════════════════════════════════════════╝
-const COMING_SOON = true;
+const COMING_SOON = false;
 
 function ComingSoonPage() {
   const [days, setDays] = useState(0);
